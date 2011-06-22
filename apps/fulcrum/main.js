@@ -19,11 +19,7 @@ Fulcrum.main = function main() {
   // create multiple pages and panes.  
   Fulcrum.getPath('mainPage.mainPane').append() ;
 
-  // Step 2. Set the content property on your primary controller.
-  // This will make your app come alive!
-
-  // TODO: Set the content property on your primary controller
-  // ex: Fulcrum.contactsController.set('content',Fulcrum.contacts);
+  Fulcrum.statechart.initStatechart();
 
 } ;
 

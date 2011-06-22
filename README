@@ -1,6 +1,7 @@
 ==========================================================================
 Project:   Fulcrum
-Copyright: @2011 My Company, Inc.
+Copyright: @2011 Joubert Nel
 ==========================================================================
 
-TODO: Describe Your Project
+Toy Application using Pivotal Tracker API to show some SproutCore features.
+Demoed at Pivotal Labs NY Tech Talk http://www.meetup.com/PivotalNY-Tech-Talks/events/22347951/

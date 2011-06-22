@@ -1,0 +1,27 @@
+{{#with story}}
+
+The <b>{{story_type}}</b> <a {{bindAttr href="url"}}>{{name}}</a> is implemented as follows:<br/>
+
+{{description}}
+
+<hr>
+
+<h1>Metrics</h1>
+
+<table>
+        <tr>
+                <td>Estimate</td>
+                <td>{{estimate}}</td>
+        </tr>
+        <tr>
+                <td>Requested by</td>
+                <td>{{requested_by}}</td>
+        </tr>
+        <tr>
+                <td>Created at</td>
+                <td>{{created_at}}</td>
+        </tr>
+
+</table>
+
+{{/with}}

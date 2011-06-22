@@ -1,0 +1,44 @@
+$theme.banner {
+    background-color: #555;
+    color: white;
+    .h1 {
+        font: 18pt bold "Helvetica" !important;
+    }
+}
+
+$theme.projectListItem {
+    color: #000;
+    &.sel {
+        color: #000 !important;
+        background: #75cc5b;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#94DA7B), color-stop(0.62, #75CC5B));
+    }
+}
+
+$theme.columnHeading {
+    font: small-caps 12pt "Helvetica";
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bbb), color-stop(0.62, #999));
+}
+
+
+$theme.actionButton {
+    padding-top: 0px !important;
+    text-align:center !important;
+    color:#fff !important;
+    font:16px bold "Helvetica" !important;
+    text-shadow: 0 -1px #772a08 !important;
+    border:1px solid #b73901 !important;
+    background: #de4724 !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fd704f ), to(#de4724)) !important;
+    background: -moz-linear-gradient (top, #fd704f, #de4724) !important;
+    box-shadow:inset 0px 1px 1px #ffae9b !important;
+    .left { background: none !important }
+    .middle { background: none !important }
+    .right { background: none !important }
+
+    &.active {
+        background: #de4724 !important;
+        background: -webkit-gradient(linear, left bottom, left top, from(#fd704f ), to(#de4724)) !important;
+        background: -moz-linear-gradient (top, #fd704f, #de4724) !important;
+    }
+}
